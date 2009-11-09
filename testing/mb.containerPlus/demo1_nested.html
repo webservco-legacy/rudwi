@@ -1,0 +1,103 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>mbContainers</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+  <link rel="stylesheet" type="text/css" href="css/mbContainer.css" title="style"  media="screen"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
+"></script>
+  <script type="text/javascript" src="inc/ui.core.min.js"></script>
+  <script type="text/javascript" src="inc/ui.draggable.min.js"></script>
+  <script type="text/javascript" src="inc/ui.resizable.min.js"></script>
+  <script type="text/javascript" src="inc/jquery.metadata.js"></script>
+  <script type="text/javascript" src="inc/mbContainer.js"></script>
+  <script type="text/javascript">
+    $(function(){
+
+
+      $("#a").buildContainers({
+        containment:"document",
+        elementsPath:"elements/"
+      });
+      $("#b").buildContainers({
+        containment:"parent",
+        elementsPath:"elements/"
+      });
+
+      $("#resizable").resizable();
+
+    });
+  </script>
+  <style type="text/css">
+    .evidence{
+      color:gray;
+      padding:10px;
+      margin-right:5px;
+      margin-top:5px;
+      -moz-border-radius:10px;
+      -webkit-border-radius:10px;
+    }
+
+    #dock{
+      display:block;
+      padding-top:10px;
+      height:30px;
+    }
+    #dock img{
+      padding-right:10px;
+    }
+
+    #desk{
+      width:100%;
+    }
+
+    #desk td{
+      padding:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+    }
+    #mb_console{
+      padding:5px;
+      background:gainsboro;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+      font-size:10px;
+      height:400px;
+      overflow:auto;
+    }
+  </style>
+</head>
+<body style="background:#006699">
+
+<div id="a" class="containerPlus draggable resizable {buttons:'m,c,i', icon:'browser.png', skin:'white', width:'700',height:'500'}" style="top:100px;left:400px">
+  <div class="no"><div class="ne"><div class="n">container A</div></div>
+    <div class="o"><div class="e"><div class="c">
+      <div class="mbcontainercontent" style="">
+
+        <div id="b" class="containerPlus draggable {buttons:'m,i', icon:'browser.png', skin:'white', width:'300', height:'300'}" >
+          <div class="no"><div class="ne"><div class="n">container B</div></div>
+            <div class="o"><div class="e"><div class="c">
+              <div class="mbcontainercontent">
+                <div id="resizable" style="background:#c7c896; border:1px solid gray;width:200px;height:200px">
+                  <h4> resize this</h4>
+                </div>
+              </div>
+            </div></div></div>
+            <div >
+              <div class="so"><div class="se"><div class="s"> </div></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div></div></div>
+    <div >
+      <div class="so"><div class="se"><div class="s"> </div></div></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

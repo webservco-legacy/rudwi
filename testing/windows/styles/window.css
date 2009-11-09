@@ -1,0 +1,151 @@
+/* ********** ********** ********** ********** ********** LAYOUT GENERAL START ********** ********** ********** ********** ********** */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, ul, li, form, label, table, tr, td
+{  
+margin: 0px;
+padding: 0px;
+border: 0px;
+font-family: inherit;
+font-size: 100%;
+font-style: inherit;
+font-weight: inherit;
+vertical-align: baseline;
+} 
+
+html, body
+{
+height: 100%;
+}
+
+body
+{
+text-align: center;
+font-family: Verdana, sans-serif;
+font-size: 90%;
+color: #333;
+background: #006666;
+}
+
+a
+{
+text-decoration: none;
+color: #333;
+}
+/* ********** ********** ********** ********** ********** LAYOUT GENERAL END ********** ********** ********** ********** ********** */
+
+
+/* ********** ********** ********** ********** ********** WINDOW START ********** ********** ********** ********** ********** */
+.win
+{
+width: 400px;
+position: absolute;
+left: 350px;
+top: 200px;
+display: block;
+background: transparent url('../images/win.png') no-repeat top left;
+text-align: left;
+}
+
+.win_top
+{
+background: transparent url('../images/win_top.png') no-repeat top right;
+}
+
+.win_tt
+{
+height: 25px;
+background: transparent url('../images/win_tt.png') repeat-x top left;
+margin: 0 10px 0 10px;
+}
+
+.win_mid
+{
+background: transparent url('../images/win_mid.png') repeat-y top right;
+}
+
+.win_ct_pre
+{
+background: transparent url('../images/win_ct_pre.png') repeat-y top left;
+}
+
+.win_ct
+{
+background: transparent url('../images/win_ct.png') repeat top left;
+margin: 0 10px 0 10px;
+height: 200px;
+overflow: auto;
+}
+
+.win_bot
+{
+background: transparent url('../images/win_bot.png') no-repeat top right;
+position: relative;
+}
+
+.win_st_pre
+{
+background: transparent url('../images/win_st_pre.png') no-repeat top left;
+}
+
+.win_st
+{
+background: transparent url('../images/win_st.png') repeat-x top left;
+margin: 0 10px 0 10px;
+height: 17px;
+}
+
+.btn_res
+{
+width: 10px;
+height: 17px;
+float: right;
+display: inline;
+cursor: nw-resize;
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+.btn_cls
+{
+float: right;
+display: inline;
+margin: 8px 5px 0 0;
+width: 9px;
+height: 9px;
+background: transparent url('../images/btn_cls.png') no-repeat top left;
+cursor: pointer;
+}
+
+.btn_max
+{
+float: right;
+display: inline;
+margin: 8px 5px 0 0;
+width: 9px;
+height: 9px;
+background: transparent url('../images/btn_max.png') no-repeat top left;
+cursor: pointer;
+}
+
+.btn_min
+{
+float: right;
+display: inline;
+margin: 8px 5px 0 0;
+width: 12px;
+height: 9px;
+background: transparent url('../images/btn_min.png') no-repeat top left;
+cursor: pointer;
+}
+
+.btn_mov
+{
+float: right;
+display: inline;
+margin: 6px 5px 0 0;
+width: 13px;
+height: 13px;
+background: transparent url('../images/btn_mov.png') no-repeat top left;
+cursor: move;
+}
+/* ********** ********** ********** ********** ********** WINDOW END ********** ********** ********** ********** ********** */

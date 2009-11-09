@@ -1,0 +1,9 @@
+body {
+	behavior: url('./styles/csshover3.htc');
+}
+
+/*
+img, div {
+	behavior: url('./styles/iepngfix.htc');
+}
+*/

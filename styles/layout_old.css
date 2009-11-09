@@ -1,0 +1,59 @@
+/* ********** ********** ********** ********** ********** MAIN LAYOUT START ********** ********** ********** ********** ********** */
+html, body {
+margin: 0;
+padding: 0;
+border: 0;
+height: 100%;
+text-align: center;
+font-family: Verdana, sans-serif;
+font-size: 90%;
+color: #555A5C;
+background-color: #F1F0F0;
+}
+
+table, td, input, select, textarea
+{
+font-family: Verdana, sans-serif;
+font-size: 100%;
+color: #555A5C;
+}
+
+img
+{
+margin: 0px;
+padding: 0px;
+border: 0px;
+display: block;
+}
+
+form
+{
+display: inline;
+margin: 0px;
+padding: 0px;
+}
+
+a
+{
+text-decoration: none;
+color: #C91C19;
+}
+
+a:hover
+{
+color: #443118;
+}
+
+.layout
+{
+position: absolute;
+left: 50%;
+top: 50%;
+width: 980px;
+height: 580px;
+margin-left: -490px; /* half of width */
+margin-top: -290px;  /* half of height */
+text-align: center;
+background-color: #CCCCCC;
+}
+/* ********** ********** ********** ********** ********** MAIN LAYOUT END ********** ********** ********** ********** ********** */
