@@ -1,0 +1,15 @@
+# Line endings: LF in the repository and in working copies
+* text eol=lf
+
+# Binary files: no line-ending conversion
+*.ai binary
+*.aiff binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.mp3 binary
+*.png binary
+*.psd binary
+*.rar binary
+*.zip binary
+/temp/flags/.DS_Store binary
