@@ -13,3 +13,4 @@
 *.rar binary
 *.zip binary
 /temp/flags/.DS_Store binary
+*.JPG binary
